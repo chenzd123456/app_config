@@ -4,7 +4,7 @@
 <!-- author 属性用于标记当前配置的作者 -->
 <!-- 既然你已经看到了这段注释，那么，作为修改配置的开始 -->
 <!-- 把它改成你的 ID 吧！ -->
-<config author="吉王义昊">
+<config author="chenzd123456">
     <!-- <device> 标签标记一组设备配置，name 属性用于标记需生效的设备代码 -->
     <!-- 机型代码可使用「设备信息」获取（「设备」选项卡下第一个卡片的「设备」项） -->
     <!-- 当 device.name 为 default 时，该组配置对所有设备生效 -->
@@ -20,12 +20,12 @@
         <!-- 注意：尽管使用本模块无需考虑对系统的影响，但过大或者过小的数值可能会不生效 -->
         <item name="minWidth">320</item>
         <!-- 模拟应用列表权限（布尔型，默认值是 true） -->
-        <item name="fakeAppList">true</item>
+        <item name="fakeAppList">false</item>
     </device>
     <!-- 单独设备配置，该配置会对机型代码是 example 的设备生效 -->
-    <device name="example">
+    <device name="Titan">
         <!-- 单独设备配置可以只配置部分项目 -->
-        <item name="minWidth">268</item>
+        <item name="minWidth">716</item>
     </device>
 </config>
 <!-- 所有符合条件的配置都会被应用（通用设备配置或者与当前设备机型代码相同的配置） -->
